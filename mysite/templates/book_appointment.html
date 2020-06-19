@@ -1,0 +1,23 @@
+<html>
+    <style>
+        .card{
+            padding: 20px;
+            box-shadow: 0px 0px 5px grey;
+            border-radius: 10px;
+        }
+
+        .card p{
+            margin: 10px 0px;
+            font-size: 18px;
+            border-bottom: 1px solid black;
+            width: 50%;
+        }
+    </style>
+    <div class="card">
+        <h3>Booking Of Appointment By <b>{{ name }}</b></h3>
+        <p><b>Name:</b> {{ name }}</p>
+        <p><b>Phone Number:</b> {{ phone_number }}</p>
+        <p><b>Description Of Job:</b> {{ description }}</p>
+        <p><b>Date:</b> {{ date }}</p>
+    </div>
+</html>
