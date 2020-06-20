@@ -1,0 +1,608 @@
+@import url(//db.onlinewebfonts.com/c/91dd06fc110a0b45117e9338dcb9dcf9?family=Colonna+MT);
+@import url(//db.onlinewebfonts.com/c/6e4a9679e65cc320746c3e5d48e51f28?family=Raleway);
+@import url(//db.onlinewebfonts.com/c/72c75860d89e91a517dfb1e7d308c180?family=Courier+New);
+*{
+    font-family: Raleway, helvetica, sans-serif !important;
+    font-size: 18px;
+}
+
+#App{
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
+.brand-logo#logo{
+    font-family: "Colonna MT" !important;
+}
+
+nav li a{
+    font-size: 18px !important;
+}
+
+nav li{
+    margin-left: 10px;
+}
+nav li:hover{
+    background: #444;
+}
+
+
+#contact-loader{
+    min-width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: rgba(200, 200, 200, .3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact-loader img{
+    width: 100px !important;
+    height: 100px !important;
+}
+
+#what-i-am{
+    position: relative;
+    min-height: 100px;
+}
+
+#what-i-am *{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    text-align: center;
+    background-color: #111111;
+}
+
+#what-i-am :nth-child(2){
+    transform: rotateX(90deg);
+}
+
+
+@keyframes rotateOut1{
+    from{
+        transform-origin: 0px 0px;
+        transform: rotateX(0deg);
+    }
+    to{
+        transform-origin: 0px 0px;
+        transform: rotateX(90deg);
+    }
+}
+
+@keyframes rotateOut2{
+    from{
+        transform-origin: 0px 100%;
+        transform: rotateX(0deg);
+    }
+    to{
+        transform-origin: 0px 100%;
+        transform: rotateX(-90deg);
+    }
+}
+
+@keyframes rotateIn1{
+    from{
+        transform-origin: 0px 0px;
+        transform: rotateX(90deg);
+        background: black;
+    }
+    to{
+        transform-origin: 0px 0px;
+        transform: rotateX(0deg);
+        background: #111;
+    }
+}
+
+@keyframes rotateIn2{
+    from{
+        transform-origin: 0px 100%;
+        transform: rotateX(-90deg);
+        background: black;
+    }
+    to{
+        transform-origin: 0px 100%;
+        transform: rotateX(0deg);
+        background: #111;
+    }
+}
+
+#landing-comment-side *,
+#section-header{
+    font-family: "Courier New" !important;
+}
+
+#landing-comment-side {
+    position: relative;
+    top: 35px;
+}
+
+#portfolio{
+    padding: 50px 0px;
+}
+
+.section-header{
+    color: #282828;
+    border-bottom: 4px solid #414141;
+    padding: 10px 20px;
+    font-weight: bold !important;
+    font-size: 28px;
+    font-family: "Courier New" !important;
+}
+
+#portfolio :nth-child(2) img{
+    width: 90%;
+    height: 240px;
+    margin-top: 50px !important;
+    position: relative;
+    top: 40px;
+    opacity: .25;
+    transition: all 1s;
+}
+
+#portfolio :nth-child(2) div{
+    text-align: center;
+}
+
+#portfolio a#portfolio-instalink {
+    background: #421B06;
+    padding: 15px;
+    color: white;
+    display: inline-block;
+    margin: 50px auto;
+}
+
+#portfolio a#portfolio-instalink  span{
+    padding-right: 20px;
+}
+
+#portfolio a#portfolio-instalink img{
+    position: relative;
+    top: 5px;
+}
+
+#bigger{
+    font-weight: 600 !important;
+}
+
+
+#about-me .image-side{
+    position: relative;
+    left: -100px;
+    opacity: .25;
+    transition: all 1s;
+}
+
+#about-me .content-side{
+    position: relative;
+    left: 100px;
+    opacity: .25;
+    transition: all 1s;
+}
+
+#about-me :nth-child(1) img{
+    width: 90%;
+    height: 350px;
+}
+
+#about-me{
+    text-align: center;
+    margin: 50px auto;
+}
+
+#about-me .about-heading{
+    position: relative;
+    top: 20px;
+}
+
+#about-me .about-heading *{
+    font-family: "Courier New" !important;
+}
+
+#about-me .about-heading h4{
+    color: #6E6E6E;
+    font-size: 16px !important;
+    font-weight: 800 !important;
+    margin-bottom: 0px 20px !important;
+}
+
+#about-me .about-heading h2{
+    font-weight: 800 !important;
+    font-size: 42px !important;
+    margin: 20px !important;
+}
+
+.about-content{
+    color: #2F2F2F;
+    font-size: 16px;
+    top: 20px;
+}
+
+#about-my-services{
+    margin: 100px auto !important;
+}
+
+.service-section{
+    margin: 100px auto;
+}
+
+
+.service-section .image-side img{
+    width: 90%;
+    height: 350px;
+}
+
+.service-heading h4,
+.service-heading h2{
+    font-family: "Courier New" !important;
+    margin: 05px; 
+}
+
+.service-heading h4{
+    font-size: 18px !important;
+    font-weight: bold !important;
+    color: #6E6E6E;
+}
+
+.service-heading h2{
+    font-size: 24px !important;
+    font-weight: 700 !important;
+}
+
+.service-content{
+    font-size: 16px;
+    margin-top: 25px;
+    line-height: 28px;
+}
+
+.service-section .content-side{
+    top: 25px;
+}
+
+#service-footer{
+    display: block;
+    color: white;
+    background-color: #2B0F00;
+    padding: 50px;
+    font-size: 40px;
+    text-align: right;
+    margin: 100px auto 0px auto;
+}
+
+#service-footer:hover{
+    cursor: pointer;
+}
+
+a:visited{
+    color: inherit;
+}
+
+
+#contact{
+    background-color: #F3F4F9;
+    padding: 80px;
+    margin-bottom: 0px !important;
+}
+
+#contact img{
+    width: 24px;
+    height: 24px;
+}
+
+#contact h2{
+    font-size: 32px !important;
+    font-family: "Courier New" !important;
+    font-weight: bold !important;
+}
+
+#contact p{
+    font-size: 16px !important;
+}
+
+.contact-item{
+    background-color: #6E6E6E;
+    margin: 25px auto;
+    color: white;
+    font-weight: bold !important;
+    position: relative;
+    top: 25px;
+    opacity: .25;
+    transition: all 1s;
+}
+
+#contact .input-field{
+    position: relative;
+    top: 40px;
+    opacity: .25;
+    transition: all 1s;
+}
+
+.contact-item span:nth-child(1){
+    background-color: #2F353F;
+    height: 100%;
+    box-sizing: content-box;
+}
+
+.contact-item span{
+    display: inline-block;
+    padding: 15px;
+}
+
+#contact button{
+    font-size: 16px !important;
+    font-family: inherit;
+    color: white;
+    background-color: #2F353F;
+    padding: 15px 20px;
+    border: none;
+}
+
+#contact button:hover{
+    cursor: pointer;
+    background: rgb(66, 73, 85);
+}
+
+#to-top{
+    position: fixed;
+    bottom: 80px;
+    right: 25px;
+    box-sizing: content-box;
+    padding: 10px 15px;
+    background: rgb(31, 35, 43);
+}
+
+#to-top:hover{
+    cursor: pointer;
+}
+
+#to-top img{
+    width: 18px;
+    height: 18px;
+}
+
+
+footer{
+    padding: 50px;
+    color: white;
+    background: black;
+    margin-bottom: 0px !important;
+}
+footer img{
+    width: 24px;
+    height: 24px;
+    margin-right: 25px;
+}
+footer span{
+    font-family: "Colonna MT" !important;
+}
+
+#loader{
+    position: fixed;
+    background-color: transparent;
+    top: 0px;
+    width: 100vw;
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999999;
+}
+
+#loader::before,
+#loader::after{
+    display: block;
+    content: "";
+    min-width: 50%;
+    min-height: 100%;
+    background-color: black;
+    position: fixed;
+    top: 0px;
+}
+
+#loader::before{
+    left: 0px;
+}
+
+#loader::after{
+    right: 0px;
+}
+
+#loader p{
+    font-family:  "Colonna MT" !important;
+    font-size: 5em;
+    display: inline-block;
+    margin: 0px;
+    padding: 23px 20px;
+    position: relative;
+    animation: ease-in-out 3s forwards infinite min-max;
+    z-index: 9999999;
+}
+
+#loader p::before{
+    display: block;
+    content: "";
+    min-height: 100%;
+    min-width: 100%;
+    border-radius: 50%;
+    border: 1.5px solid rgb(155, 155, 155);
+    border-top-color: #282828;
+    border-bottom-color: #282828;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    transform-origin: center;
+    animation: linear 3s rotate infinite forwards;
+}
+.loader-exit::before{
+    animation: ease-out .5s forwards slide-left-out;
+}
+
+.loader-exit::after{
+    animation: ease-out .5s forwards slide-right-out;
+}
+
+#loader.loader-exit p{
+    animation: ease-out .5s forwards zoom-fade-out;
+}
+
+@keyframes rotate{
+    from{
+        transform: rotateZ(0deg);
+    }to{
+        transform: rotateZ(360deg)
+    }
+}
+
+@keyframes min-max{
+    0%{
+        transform: scale(1);
+    }50%{
+        transform: scale(1.1);
+    }100%{
+        transform: scale(1);
+    }
+}
+
+@keyframes slide-right-out{
+    from{
+        right: 0px;
+        opacity: 1;
+    }to{
+        right: -50%;
+        opacity: 0;
+        display: none;
+    }
+}
+
+@keyframes slide-left-out{
+    from{
+        left: 0px;
+        opacity: 1;
+    }to{
+        left: -50%;
+        opacity: 0;
+        display: none;
+    }
+}
+
+@keyframes zoom-fade-out{
+    from{
+        transform: scale(1);
+        opacity: 1;
+    }to{
+        transform: scale(1.5);
+        opacity: 0;
+        display: none !important;
+    }
+}
+
+
+
+/* Responsiveness */
+
+@media screen and (max-width: 1034px){
+    h1#bigger.white-text{
+        font-size: 3.5rem !important;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .section-header{
+        width: 80%;
+        display: block;
+        margin: auto;
+        font-size: 20px;
+        text-align: center;
+    }
+    #contact{
+        padding: 20px;
+    }
+    #home{
+        display: block;
+        min-height: 70vh;
+    }
+    #landing-comment-side{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 100%;
+        height: 100%;
+    }
+
+    .service-section {
+        margin: 40px auto !important;
+    }
+    .service-section .content-side{
+        top: 0px;
+        margin: 20px auto;
+    }
+
+    .service-section .content-side,
+    .service-section .image-side{
+        width: 100% !important;
+    }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        height: 150px;
+    }
+    footer span{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .brand-logo{
+        font-size: 1.7rem !important;
+        display: inline-block;
+        width: 60% !important;
+    }
+    
+
+    #home{
+        height: 70vh;
+        position: relative;
+    }
+
+    #landing-comment-side{
+        position: absolute;
+        left: 0px;
+        bottom: 0px;
+        height: 50% !important;
+        background: rgba(0, 0, 0, .3)
+    }
+
+    .contact-item span{
+        font-size: 14px;
+    }
+
+    .contact-item img{
+        width: 14px !important;
+        height: 14px !important;
+    }
+
+    #contact h2{
+        font-size: 24px !important;
+    }
+
+    #service-footer{
+        font-size: 24px !important;
+    }
+
+    .service-content{
+        font-size: 14px !important;
+    }
+
+    #bigger.white-text{
+        font-size: 2rem !important;
+    }
+}

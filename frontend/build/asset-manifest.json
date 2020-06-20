@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/static/css/main.45421b2c.chunk.css",
+    "main.js": "/static/js/main.fe82425d.chunk.js",
+    "main.js.map": "/static/js/main.fe82425d.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.8dc0443e.js",
+    "runtime-main.js.map": "/static/js/runtime-main.8dc0443e.js.map",
+    "static/js/2.69c549e0.chunk.js": "/static/js/2.69c549e0.chunk.js",
+    "static/js/2.69c549e0.chunk.js.map": "/static/js/2.69c549e0.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.127cc3988ded76ba6e81fa41c5a948c4.js": "/precache-manifest.127cc3988ded76ba6e81fa41c5a948c4.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.45421b2c.chunk.css.map": "/static/css/main.45421b2c.chunk.css.map",
+    "static/js/2.69c549e0.chunk.js.LICENSE.txt": "/static/js/2.69c549e0.chunk.js.LICENSE.txt",
+    "static/media/a_me.jpg": "/static/media/a_me.1877df76.jpg",
+    "static/media/arrow-right.svg": "/static/media/arrow-right.526ecad6.svg",
+    "static/media/arrow-up.svg": "/static/media/arrow-up.9a784733.svg",
+    "static/media/facebook.svg": "/static/media/facebook.0560f1b8.svg",
+    "static/media/instagram.svg": "/static/media/instagram.48bdd58e.svg",
+    "static/media/loader.gif": "/static/media/loader.8ca24726.gif",
+    "static/media/mail.svg": "/static/media/mail.aab98379.svg",
+    "static/media/main_screen_image.jpg": "/static/media/main_screen_image.69b03bd1.jpg",
+    "static/media/menu.svg": "/static/media/menu.eabb93bb.svg",
+    "static/media/phone.svg": "/static/media/phone.add7682a.svg",
+    "static/media/pi1.jpg": "/static/media/pi1.938e1602.jpg",
+    "static/media/pi2.jpg": "/static/media/pi2.6b1f73d2.jpg",
+    "static/media/pi3.jpg": "/static/media/pi3.5a07758f.jpg",
+    "static/media/pi4.jpg": "/static/media/pi4.96ad4c6e.jpg",
+    "static/media/pi5.jpg": "/static/media/pi5.2b686b1d.jpg",
+    "static/media/pi6.jpg": "/static/media/pi6.4aad0fa6.jpg",
+    "static/media/s_img1.jpg": "/static/media/s_img1.3abe3e94.jpg",
+    "static/media/s_img2.jpg": "/static/media/s_img2.103ebbb5.jpg",
+    "static/media/s_img3.jpg": "/static/media/s_img3.0f046953.jpg",
+    "static/media/twitter.svg": "/static/media/twitter.f49703a9.svg",
+    "static/media/whatsapp.svg": "/static/media/whatsapp.f50d9927.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8dc0443e.js",
+    "static/js/2.69c549e0.chunk.js",
+    "static/css/main.45421b2c.chunk.css",
+    "static/js/main.fe82425d.chunk.js"
+  ]
+}
