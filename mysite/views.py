@@ -39,6 +39,7 @@ def contact_us(request):
         msg.send()
     
     except Exception:
+        print(Exception)
         return Response(status=401)
 
     return Response({"success_message": "Message Sent Successfully"})

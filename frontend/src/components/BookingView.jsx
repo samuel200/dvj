@@ -78,6 +78,7 @@ export const BookingView = ()=>{
             setBookingCode(data.booking_id);
             instance.open();
         }).catch((error)=>{
+            console.log(error);
             window.M.toast({"html": "Error While Booking Appointment", classes: "red white-text darken-3"});
             setLoading(false);
         })
