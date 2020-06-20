@@ -90,7 +90,7 @@ export const BookingView = ()=>{
         const instance = window.M.Modal.getInstance(modal2.current);
         setLoading(true);
 
-        axios.post("http://localhost:8000/check_appointment/", {
+        axios.post("/check_appointment/", {
             booking_id: form.find("input[name='booking_id']").val()
         }).then(({data})=>{
             console.log(data);

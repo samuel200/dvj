@@ -9,4 +9,4 @@ class Booking(models.Model):
     booking_id = models.CharField(max_length=10) 
 
     def __str__(self):
-        return self.email
+        return self.name
