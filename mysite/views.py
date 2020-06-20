@@ -21,7 +21,7 @@ def generate_id():
     return output_id
 
 def home(request):
-    return HttpResponse("<h1>Hello World!</h1>")
+    return render(request, 'index.html')
 
 @api_view(["POST"])
 def contact_us(request):
@@ -34,7 +34,7 @@ def contact_us(request):
         content = render_to_string("message.html", {'name': name, "subject": subject, "email": email, "message": message})
         text_content = render_to_string("message.txt", {'name': name, "subject": subject, "email": email, "message": message})
 
-        msg = EmailMultiAlternatives(subject, text_content, "<support@dvjphotography.com>", ["samuelemeh200@gmail.com"])
+        msg = EmailMultiAlternatives(subject, text_content, "<support@dvjphotography.com>", ["samuelemeh200@gmail.com", "aristea@zdpuppyiy.com"])
         msg.attach_alternative(content, "text/html")
         msg.send()
     
@@ -58,7 +58,7 @@ def book_appointment(request):
         content = render_to_string("book_appointment.html", {'name': name, "date": date, "phone_number": phone_number, "description": description})
         text_content = render_to_string("book_appointment.txt", {'name': name, "date": date, "phone_number": phone_number, "description": description})
 
-        msg = EmailMultiAlternatives("Booking Of Appointment", text_content, "<support@dvjphotography.com>", ["samuelemeh200@gmail.com"])
+        msg = EmailMultiAlternatives("Booking Of Appointment", text_content, "<support@dvjphotography.com>", ["samuelemeh200@gmail.com", "aristea@zdpuppyiy.com"])
         msg.attach_alternative(content, "text/html")
         msg.send()
 
